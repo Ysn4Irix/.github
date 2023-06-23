@@ -22,7 +22,7 @@ jobs:
         with:
           vt_api_key: ${{ secrets.vt_monitor_api_key }}
           vt_monitor: true
-          monitor_path: /portapps/${{ env.CURDATE }}/${{ github.event.repository.name }}-${{ github.event.release.tag_name }}
+          monitor_path: /ysn4irix/${{ env.CURDATE }}/${{ github.event.repository.name }}-${{ github.event.release.tag_name }}
           update_release_body: false
           github_token: ${{ github.token }}
           files: |
